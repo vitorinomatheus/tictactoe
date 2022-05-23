@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Rock+Salt&display=swap');
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: max-content 1fr;
+    margin: 0;
+    background-color: rgb(0, 85, 0);
+}
+
+.header{
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    border-bottom: 2px white solid;
+}
+
+.header h1{
+    margin: 1px;
+}
+
+.game{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 1.6em;
+    justify-items: center;
+    color: white;
+    margin-top: 6vh;
+    height: 100%;
+}
+
+.game div{
+    height: 100%;
+    width: 100%;
+}
+
+.playerScore{
+    text-align: center;
+}
+
+.playerScore h2{
+    margin-top: 0;
+}
+
+.playerScore h1{
+    font-size: 300%;
+}
+
+.grid{
+    display: flex;
+}
+.gameBoard{
+    display: grid;
+    padding: 5vh;
+    padding-top: 0;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.gameBoard div{
+    border: 1px solid white;
+}
+
