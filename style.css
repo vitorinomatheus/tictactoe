@@ -23,6 +23,8 @@ body{
 }
 
 .header{
+    display: flex;
+    justify-content: space-around;
     font-family: 'Rock Salt', cursive;
     text-align: center;
     color: white;
@@ -32,6 +34,15 @@ body{
 
 .header h1{
     margin: 1px;
+}
+
+.header button{
+    border: none;
+    background-color: rgb(0, 85, 0);
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 1.1em;
+    cursor: pointer;
 }
 
 .game{
@@ -62,6 +73,10 @@ body{
     font-size: 300%;
 }
 
+.playerScore h2.selected{
+    text-decoration:overline;
+}
+
 .grid{
     display: flex;
     justify-content: center;
@@ -83,5 +98,6 @@ body{
     font-family: 'Grape Nuts', cursive;
     color: white;
     font-size: 2em;
+    cursor: pointer;
 }
 
