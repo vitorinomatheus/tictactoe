@@ -98,7 +98,7 @@ const endGame = (() => {
             {
                 if(compareResults(resultCheck[r], gameCheckOne))
                 {
-                    alert(`Player 1`);
+                    alert(`${btnsWork.player1.textContent} Wins!`);
                     resetGame();
                     return
                 }
@@ -113,7 +113,7 @@ const endGame = (() => {
             {
                 if(compareResults(resultCheck[r], gameCheckTwo))
                 {
-                    alert(`Player 2`);
+                    alert(`${btnsWork.player2.textContent} Wins!`);
                     resetGame();
                     return
                 }
